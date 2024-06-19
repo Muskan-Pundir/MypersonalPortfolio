@@ -126,8 +126,6 @@ section .title::after{
     color: #fff;
 }
 
-
-
 /* menu btn styling */
 .menu-btn{
     color: #fff;
@@ -281,13 +279,16 @@ section .title::after{
     border-radius: 6px;
     padding: 50px 25px;
     cursor: pointer;
+    margin-top:10px;
     transition: all 0.3s ease;
+    justify-content: center;
 }
 .education .serv-content .card:hover{
     background: crimson;
 }
 .education .serv-content .card .box{
     transition: all 0.3s ease;
+    
 }
 .education .serv-content .card:hover .box{
     transform: scale(1.05);
@@ -395,7 +396,7 @@ section .title::after{
 .skills-content .right .bootstrap::before{
     width: 30%;
 }
-.skills-content .right .react::before{
+.skills-content .right .ReactJs::before{
     width: 50%;
 }
 .skills-content .right .nodejs::before{
